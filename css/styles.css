@@ -29,7 +29,8 @@ body {
     width: 100%;
     height: 50%;
     background-color: rgb(244, 243, 245);
-    padding: 120px;
+    padding: 10px 20px;
+
 }
 
 .card_image {
@@ -37,5 +38,26 @@ body {
     border: 3px solid black;
     width: 100px;
     height: 100px;
-    transform: translateY(-50px) translateX(-20px);
+}
+
+.card_name {
+    font-family: "Lato";;
+}
+
+.card_instagram {
+    font-family: "Lato";
+    padding-top: 5px;
+}
+
+.card_profissao {
+    font-family: "Lato";
+    padding-top: 2px;
+}
+
+.escrita_dados {
+    display: inline-block;
+}
+
+.numero_dados {
+    display: inline-block;
 }
