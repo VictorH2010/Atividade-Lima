@@ -35,4 +35,7 @@ body {
 .card_image {
     border-radius: 100%;
     border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    transform: translateY(-50px) translateX(-20px);
 }
